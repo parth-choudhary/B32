@@ -1,0 +1,57 @@
+START:
+	WAIT
+	WAIT
+	WAIT
+	WAIT
+	LDA 6
+	LDX #0
+	STA , X
+	WAIT
+	LDA 8
+	LDX #2
+	STA , X
+	WAIT
+	LDA 0
+	LDX 6
+	ADD A,X
+	LDX #10
+	STA , X
+	LDA 10
+	LDX #4
+	STA , X
+	WAIT
+	LDA 0
+	LDX 2
+	ADD A,X
+	LDX #12
+	STA , X
+	LDA 12
+	LDX 8
+	ADD A,X
+	LDX #14
+	STA , X
+	LDA 14
+	LDX 16
+	ADD A,X
+	LDX #18
+	STA , X
+	LDA 18
+	LDX 20
+	ADD A,X
+	LDX #22
+	STA , X
+	LDA 22
+	LDX 24
+	ADD A,X
+	LDX #26
+	STA , X
+	LDA 26
+	LDX 28
+	ADD A,X
+	LDX #30
+	STA , X
+	LDA 30
+	LDX #4
+	STA , X
+	WAIT
+	END START

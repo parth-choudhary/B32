@@ -1,0 +1,13 @@
+parser started
+Parse Completed
+int a;
+int b;
+int c,d;
+a=b;
+c=(a);
+c=a+b;
+d=a+3;
+d=9+3+a;
+
+ÿparser started
+Parse Completed
